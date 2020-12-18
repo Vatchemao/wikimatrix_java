@@ -22,15 +22,16 @@ public class WikipediaHTMLExtractorTest {
 
 	private String BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/";
 	private String outputDirHtml = "output" + File.separator + "html" + File.separator;
-	private String outputDirWikitextTest = "output" + File.separator + "wikitext" + File.separator + "test" + File.separator;
-	private String outputDirWikitextTestNombreFichiers = "output" + File.separator + "wikitext" + File.separator + "test" + File.separator + "testNombreFichiers" + File.separator;
+	private String outputDirHtmlTest = "output" + File.separator + "html" + File.separator + "test" + File.separator;
+	private String outputDirHtmlTestNombreFichiers = "output" + File.separator + "html" + File.separator + "test" + File.separator + "testNombreFichiers" + File.separator;
+	private String outputDirWikitext = "output" + File.separator + "wikitext" + File.separator;
 	private File file = new File("inputdata" + File.separator + "wikiurls.txt");
 	private String url;
 	private int nurl = 0;
 
 	private static final Logger logger = LogManager.getLogger(WikipediaHTMLExtractorTest.class);
 
-    private WikipediaHTMLExtractor extracteur = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtml, outputDirWikitextTest, file);
+    private WikipediaHTMLExtractor extracteur = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtmlTest, outputDirWikitext, file);
     private Statistiques statistiques = null;
 
 	@Test
@@ -57,11 +58,11 @@ public class WikipediaHTMLExtractorTest {
 	public void testNombreFichiersCrees() throws IOException {
 		logger.debug("Début du test testNombreFichiersCrees;");
 		// On crée un extracteur spécifique, pour crééer les fichiers dans un répertoire spécifique afin de ne pas brouiller le compte de fichiers
-		WikipediaHTMLExtractor extracteurTestNombreFichiersCrees = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtml, outputDirWikitextTestNombreFichiers, file);
+		WikipediaHTMLExtractor extracteurTestNombreFichiersCrees = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtmlTestNombreFichiers, outputDirWikitext, file);
 		url = "Comparison_between_Esperanto_and_Ido";
 		extracteurTestNombreFichiersCrees.extraire(url);
 		// On crée une image du répertoire où sont générés les csv pour ce test.
-		File repertoireOutput = new File(outputDirWikitextTestNombreFichiers);
+		File repertoireOutput = new File(outputDirHtmlTestNombreFichiers);
     	assertEquals(8, repertoireOutput.listFiles().length);
 		logger.debug("Fin du test testNombreFichiersCrees.");
 	}
@@ -73,7 +74,7 @@ public class WikipediaHTMLExtractorTest {
     	assertEquals(6, extracteur.extraire(url).getListeTableaux().get(1).select("tr").size());
 		logger.debug("fin du test testNombreLignes.");
 	}
-	
+
 	@Test
 	public void testNombreColonnes() throws IOException {
 		logger.debug("Début du test testNombreColonnes.");
@@ -108,7 +109,7 @@ public class WikipediaHTMLExtractorTest {
 		// On récupère la valeur de la page wikipédia (premier tableau, troisième ligne, sixième colonne).
 		String valeurCelluleSource = liste.get(0).select("tr").get(3).select("td").get(5).text();
 		// On récupère la valeur du fichier csv créé.
-		File csvFile = new File(outputDirWikitextTest + extracteur.mkCSVFileName(url, 1));
+		File csvFile = new File(outputDirHtmlTest + extracteur.mkCSVFileName(url, 1));
 		FileReader fileReader = new FileReader(csvFile, StandardCharsets.UTF_8);
 		CSVReader csvReader = new CSVReader(fileReader);
 		// NB : comme il n'est pas possible d'accéder directement à la nième ligne d'un fichier, on doit
