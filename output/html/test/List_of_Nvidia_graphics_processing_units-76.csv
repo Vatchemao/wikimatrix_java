@@ -1,0 +1,2 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS) Single precision";"Supported API version Direct3D";"Supported API version OpenGL";"Nvidia Optimus technology";"TBP (Watts)"
+"Quadro M5500";"GM204";"28";"PCIe 3.0 ×16";"";"";"";"2048:128:64 (16 SMM)";"";"";"8096";"211";"GDDR5";"256";"4700";"12.1";"4.5";"Yes";"150"

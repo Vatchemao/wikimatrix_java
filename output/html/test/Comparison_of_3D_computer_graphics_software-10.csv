@@ -1,0 +1,6 @@
+"Application";"Hard surface Modeling Polygon Modeling";"Hard surface Modeling Subdivision Modeling";"Sculpt Modeling Base-mesh Creation";"Sculpt Modeling Sculpting";"Sculpt Modeling Hand Retopology";"Sculpt Modeling Automatic Retopology";"Non-destructive Modeling Boolean";"Non-destructive Modeling Bevel";"Non-destructive Modeling Procedural"
+"Maya";"Yes";"Yes";"(SOuP BMesh)";"Yes";"Yes";"2020 and later";"Yes";"Yes";"Yes"
+"3ds Max";"Yes";"Yes";"(Form)";"Paint Deform";"Yes";"2021.3 and later";"Yes";"Yes";"Yes"
+"Blender";"Yes";"Yes";"Skin Modifier";"Yes";"Yes";"2.81 and later";"Yes";"Yes";"stack only"
+"ZBrush";"ZModeler";"ZModeler";"ZSphere and ZSketch";"Yes";"Yes";"ZRemesher";"4R8 and later";"?";"No"
+"Curvy 3D";"No";"No";"sketch-based";"Yes";"?";"?";"?";"?";"No"

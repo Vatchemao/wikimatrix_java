@@ -1,0 +1,4 @@
+"IDE";"License";"Windows";"Linux";"macOS";"Other platforms";"Debugger";"Profiler";"Notes"
+"Atom (with Juno extension)";"MIT licensed[33]";"Yes";"Yes";"Yes";"?";"Yes[34]";"Yes[35]";"Has a plotting pane."
+"Emacs / spacemacs";"portions in GPL v2, LGPL, BSD and public domain";"Yes";"Yes";"Yes";"FreeBSD";"Yes";"Yes";"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
+"Visual Studio Code (using the Julia extension)";"MIT License";"Yes";"Yes";"Yes";"FreeBSD[36]";"?[37]";"?";"License is for the extension; and Microsoft's source code (only). Has a plotting pane."

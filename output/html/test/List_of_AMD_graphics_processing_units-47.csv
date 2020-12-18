@@ -1,0 +1,5 @@
+"Model";"Released";"Code name";"Fab (nm)";"Core Clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Shared Memory Bandwidth (GB/s)";"Shared Memory Bus type";"Shared Memory Bus width (bit)";"Processing power (GFLOPS)";"Max. Combined TDP2 (Watts)";"Fusion_APU"
+"Radeon HD 6380G";"June 14, 2011";"WinterPark";"32";"400";"160:8:4:2";"1.6";"3.2";"17.06";"DDR3-1333";"128";"128";"35";"E2-3000M"
+"Radeon HD 6480G";"June 14, 2011";"BeaverCreek";"BeaverCreek";"444";"240:12:4:3";"1.77";"3.55";"17.06";"DDR3-1333";"128";"213.1";"35 - 45";"A4-3300M A4-3310MX"
+"Radeon HD 6520G";"June 14, 2011";"400";"BeaverCreek";"320:16:8:4";"3.2";"6.4";"256";"17.06";"DDR3-1333";"128";"A6-3400M A6-3410MX A6-3420M";"";""
+"Radeon HD 6620G";"June 14, 2011";"444";"BeaverCreek";"400:20:8:5";"3.55";"8.88";"25.6";"17.06";"DDR3-1333";"128";"DDR3-1600";"355.2";"A8-3500M A8-3510MX A8-3530MX"

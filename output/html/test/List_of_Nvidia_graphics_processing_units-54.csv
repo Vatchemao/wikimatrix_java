@@ -1,0 +1,5 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config12";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS)[201][202] Single precision";"Processing power (GFLOPS)[201][202] Double precision";"Supported API version Direct3D";"Supported API version OpenGL";"TBP (Watts)";"Notes"
+"Quadro FX 560";"G73GL";"90";"PCIe ×16";"350";"350";"1200";"5:12:12:8";"2.8";"4.2";"128";"19.2";"GDDR3";"128";"";"";"9.0c";"2.1";"30";""
+"Quadro FX 46002";"G80";"90";"PCIe ×16";"500";"1200";"500";"1200";"1400";"96:24:24";"12";"24";"1400";"768";"12";"24";"67.2";"384";"768";"345"
+"Quadro FX 4600 SDI2";"G80";"90";"PCIe ×16";"96:24:24";"345";"500";"1200";"154";"";"";"";"1400";"";"12";"24";"";"";"768";""
+"Quadro FX 56002";"G80";"90";"PCIe ×16";"PCIe 2.0 ×16";"600";"500";"1200";"1350";"1600";"128:32:24";"14.4";"1400";"38.4";"12";"24";"1536";"76.8";"768";"518.4"

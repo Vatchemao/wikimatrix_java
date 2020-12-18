@@ -1,0 +1,5 @@
+"Model (codename)";"Launch";"Architecture & Fab";"Core Config[e]";"Core Clock[a] (MHz)";"Fillrate[a][b][c] Texture (GT/s)";"Fillrate[a][b][c] Pixel (GP/s)";"Processing power[a][d] (GFLOPS)";"Memory Bus type & width";"Memory Size (GiB)";"Memory Clock (MT/s)";"Memory Band-width (GB/s)";"TDP"
+"Radeon RX 5300M[200] (Navi 14)";"13 November 2019";"RDNA 7 nm";"1408:88:32 22 CU";"1000 1445";"127.2";"46.2";"4069";"GDDR6 96-bit";"3";"14000";"168";"85 W"
+"Radeon RX 5500M[201] (Navi 14)";"7 October 2019";"RDNA 7 nm";"1408:88:32 22 CU";"1375 1645";"144.8";"52.6";"4632";"GDDR6 128-bit";"4";"14000";"224";"85 W"
+"Radeon RX 5600M[202] (Navi 10)";"7 July 2020";"RDNA 7 nm";"1408:88:32 22 CU";"2304:144:64 36 CU";"1000 1265";"2304:144:64 36 CU";"182.2";"81";"5829";"14000";"GDDR6 192-bit";"85 W"
+"Radeon RX 5700M[203] (Navi 10)";"2020";"RDNA 7 nm";"1408:88:32 22 CU";"1465 1720";"247.7";"2304:144:64 36 CU";"110.1";"7926";"GDDR6 256-bit";"14000";"8";"85 W"

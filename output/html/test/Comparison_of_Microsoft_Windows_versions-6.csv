@@ -1,0 +1,7 @@
+"Name";"Release date";"RTM build";"Current version";"Status support";"Codename";"Based on (kernel)";"Supported architectures"
+"Windows Phone 7";"2010-11-08";"7004";"7.10.8862";"End of life";"Photon";"CE 6.0";"ARM"
+"Windows Phone 7.5";"2011-09-27";"7720";"7.10.8862";"End of life";"Mango";"CE 6.1";"ARM"
+"Windows Phone 7.8";"2013-02-01";"8858";"7.10.8862";"End of life";"";"CE 6.1";"ARM"
+"Windows Phone 8";"2012-10-29";"10211";"7.10.8862";"10.0.10586";"10.0.10586";"End of life";"Apollo, Portico"
+"Windows Phone 8.1";"2014-04-14";"12359";"7.10.8862";"End of life";"10.0.10586";"Blue";"NT 6.3"
+"Windows 10 Mobile";"2015-11-08";"10586";"7.10.8862";"End of life";"10.0.10586";"Threshold";"NT 10.0"

@@ -1,0 +1,8 @@
+"Model";"Launch";"Code name";"Fab (nm)";"Transistors (million)";"Die size (mm2)";"Bus interface";"Core config1";"Clock rate Core (MHz)";"Clock rate Shader (MHz)";"Clock rate Memory (MHz)";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory configuration Size (MB)";"Memory configuration Bandwidth (GB/s)";"Memory configuration DRAM type";"Memory configuration Bus width (bit)";"Processing power (GFLOPS)2 Single precision";"TDP (Watts)";"Comments"
+"GeForce 310";"November 27, 2009";"GT218";"TSMC 40 nm";"260";"57";"PCIe 2.0 ×16";"16:8:4";"589";"1402";"1000";"2.356";"4.712";"512";"8";"DDR2";"64";"44.8";"30.5";"OEM Card, similar to Geforce 210"
+"GeForce 315";"February 2010";"GT216";"TSMC 40 nm";"486";"100";"PCIe 2.0 ×16";"48:16:4";"475";"1100";"1580";"3.8";"1580";"7.6";"512";"12.6";"64";"DDR3";"105.6";"33"
+"GeForce GT 320";"February 2010";"GT215";"TSMC 40 nm";"727";"144";"727";"144";"72:24:8";"540";"1302";"4.32";"1580";"12.96";"1024";"25.3";"64";"GDDR3";"128";"187.5"
+"GeForce GT 330[24]";"February 2010";"GT215-301-A3[25]";"TSMC 40 nm";"96:32:8";"550";"96:32:8";"144";"1350";"";"4.40";"17.60";"1580";"512";"32.00";"128";"64";"257.3";"75";"Specifications vary depending on OEM, similar to GT230 v2."
+"GeForce GT 330[24]";"February 2010";"GT92[26]";"TSMC 40 nm";"500";"1250";"96:32:8";"500";"1250";"";"4.000";"24.00";"1580";"256";"51.20";"256";"64";"24.00";"240.0";""
+"GeForce GT 330[24]";"February 2010";"GT92B[27]";"TSMC 40 nm";"96:32:16";"";"96:32:8";"500";"1250";"8.000";"1024";"16.32";"1580";"DDR2";"128";"";"64";"24.00";"";""
+"GeForce GT 330[24]";"February 2010";"GeForce GT 340";"TSMC 40 nm";"GT215";"96:32:8";"96:32:8";"500";"1250";"550";"1340";"3400";"1580";"";"";"512 1024";"64";"24.00";"54.4";"GDDR5[28]"

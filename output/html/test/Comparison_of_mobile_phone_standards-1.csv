@@ -1,0 +1,8 @@
+"Generation";"Technology";"Feature";"Encoding";"Year of First Use";"Roaming";"Handset interoperability";"Common Interference";"Signal quality/coverage area";"Frequency utilization/Call density";"Handoff";"Voice and Data at the same time"
+"1G";"FDMA";"NMT";"Analog";"1981";"Nordics and several other European countries";"None";"None";"Good coverage due to low frequencies";"Very low density";"Hard";"No"
+"2G";"TDMA and FDMA";"GSM";"Digital";"1991";"Worldwide, all countries except Japan and South Korea";"SIM card";"Some electronics, e.g. amplifiers";"Good coverage indoors on 850/900 MHz. Repeaters possible. 35 km hard limit.";"Very low density";"Hard";"Yes GPRS Class A"
+"2G";"CDMA";"IS-95 (CDMA one)";"Digital";"1995";"Limited";"None";"None";"Unlimited cell size, low transmitter power permits large cells";"Very low density";"Soft";"No"
+"3G";"CDMA";"IS-2000 (CDMA 2000)";"Digital";"2000 / 2002";"Limited";"RUIM (rarely used)";"None";"Unlimited cell size, low transmitter power permits large cells";"Very low density";"Soft";"No EVDO / Yes SVDO[2]"
+"3G";"W-CDMA";"UMTS (3GSM)";"Digital";"2001";"Worldwide";"SIM card";"None";"Smaller cells and lower indoors coverage on 2100 MHz; equivalent coverage indoors and superior range to GSM on 850/900 MHz.";"Very low density";"Soft";"Yes[3]"
+"4G";"OFDMA";"LTE";"Digital";"2009";"Limited";"SIM card";"None";"Smaller cells and lower coverage on the S band.";"Very low density";"Hard";"No (data only) Voice possible through VoLTE or fallback to 2G/3G"
+"5G";"OFDMA";"NR";"Digital";"2018";"Limited";"SIM card";"None";"Dense cells on millimeter waves.";"Very low density";"Hard";"No (data only) Voice possible through VoNR"

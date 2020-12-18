@@ -1,0 +1,6 @@
+"Dataset Name";"Brief description";"Preprocessing";"Instances";"Format";"Default Task";"Created (updated)";"Reference";"Creator"
+"Enron Email Dataset";"Emails from employees at Enron organized into folders.";"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.";"~ 500,000";"Text";"Network analysis, sentiment analysis";"2004 (2015)";"[186][187]";"Klimt, B. and Y. Yang"
+"Ling-Spam Dataset";"Corpus containing both legitimate and spam emails.";"Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.";"2,412 Ham 481 Spam";"Text";"Classification";"2000";"[188][189]";"Androutsopoulos, J. et al."
+"SMS Spam Collection Dataset";"Collected SMS spam messages.";"None.";"5,574";"Text";"Classification";"2011";"[190][191]";"T. Almeida et al."
+"Twenty Newsgroups Dataset";"Messages from 20 different newsgroups.";"None.";"20,000";"Text";"Natural language processing";"1999";"[192]";"T. Mitchell et al."
+"Spambase Dataset";"Spam emails.";"Many text features extracted.";"4,601";"Text";"Spam detection, classification";"1999";"[193]";"M. Hopkins et al."

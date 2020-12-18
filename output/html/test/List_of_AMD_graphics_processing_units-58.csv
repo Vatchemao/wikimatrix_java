@@ -1,0 +1,6 @@
+"Model";"Launch";"Core";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"API compliance (version) Direct3D";"API compliance (version) OpenGL";"TDP / idle (watts)";"Notes"
+"FireMV 2200 PCI.[213]";"January 2006";"RV280 GL";"PCI";"240";"200";"1:4:4:4";"0.96";"64";"3.2";"DDR";"64";"8.1";"1.4";"15";"DMS-59 for dual DVI-D output"
+"FireMV 2200 PCIe.[214]";"January 2006";"RV370";"PCIe x16";"324";"196";"2:4:4:4";"1.296";"128";"3.2";"DDR";"64";"9.0";"2.1";"15";"DMS-59 for dual DVI-D output"
+"FireMV 2260[215]";"January 2006";"January 2008";"January 2008";"RV620";"PCIe 2.0 x1/x16, PCI";"600";"500";"40(8×5):4:4";"500";"DDR";"64";"2.4";"256";"15";"DMS-59 for dual DVI-D output"
+"FireMV 2400 PCI.[217]";"January 2006";"RV380";"RV380";"PCI";"500";"2:4:4:4";"2.0";"2:4:4:4";"2.0";"DDR";"64";"128";"16";"15";"DMS-59 for dual DVI-D output"
+"FireMV 2400 PCIe.[218]";"January 2006";"PCIe x1";"RV380";"500";"256";"DDR3";"";"2:4:4:4";"2.0";"DDR";"64";"";"";"15";"DMS-59 for dual DVI-D output"

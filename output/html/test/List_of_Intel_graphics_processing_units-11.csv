@@ -1,0 +1,2 @@
+"Name";"Release year";"Market";"Processor Code name";"Processor Model";"Device ID";"Core config1";"Clock rate Min (MHz)";"Clock rate Max (MHz)";"API support[64][13][32][49][50] Direct3D";"API support[64][13][32][49][50] OpenGL";"API support[64][13][32][49][50] OpenCL";"API support[64][13][32][49][50] Vulkan";"Memory bandwidth (GB/s)"
+"Iris Plus Graphics";"2020";"Mobile";"Tiger lake";"";"";"512:64:8";"?";"?";"12 FL12_1";"4.6Windows 4.6Linux ES 3.2Linux";"2.1Windows 2.1Linux";"1.2Windows 1.2Linux";"59.7"

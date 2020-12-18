@@ -1,0 +1,5 @@
+"Model";"Archi- tecture";"Chips";"Thread processors (total)";"Bus interface";"Memory Bus type";"Memory Size (GB)";"TDP (Watts)"
+"GRID K1[230]";"Kepler";"4× GK107";"4× 192";"PCIe 3.0 ×16";"DDR3";"4× 4GB";"130"
+"GRID K2[231]";"Kepler";"2× GK104-895";"2× 1536";"PCIe 3.0 ×16";"GDDR5";"2× 4GB";"GDDR5"
+"GRID K340";"Kepler";"4× GK107";"4× 384";"PCIe 3.0 ×16";"4× 1GB";"";"GDDR5"
+"GRID K520";"Kepler";"2× GK104";"2× 1536";"PCIe 3.0 ×16";"2× 4GB";"";"GDDR5"

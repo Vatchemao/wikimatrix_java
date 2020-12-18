@@ -1,0 +1,8 @@
+"Engine";"Status";"Embedded in"
+"WebKit";"Active";"Safari browser, plus all browsers hosted on the iOS App Store."
+"Blink";"Active";"Google Chrome and other web browsers based on Chromium, such as Microsoft Edge, Opera, and Brave."
+"EdgeHTML";"Active";"Universal Windows Platform apps; formerly in the Edge browser[1]."
+"Gecko";"Active";"Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox."
+"KHTML";"Active";"Konqueror browser"
+"Presto";"Discontinued";"Formerly used as Opera's browser engine, prior to the migration to Chromium and Blink."
+"Trident";"Discontinued";"Internet Explorer and versions of Microsoft Outlook prior to Outlook 2007."

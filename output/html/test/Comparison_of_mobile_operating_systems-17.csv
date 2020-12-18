@@ -1,0 +1,8 @@
+"Feature";"Android";"iOS";"Tizen";"Sailfish OS";"Ubuntu Touch"
+"Non-intrusive incoming calls";"5+[385] or 3rd party software[386]";"14+[387]";"No";"No[388]";"?"
+"Non-intrusive notifications";"Yes[389]";"5+[106]";"?";"?";"?"
+"Move apps to external storage";"2.2+[390]";"External storage not allowed for apps";"No";"No";"No"
+"Remote Frame Buffer (RFB) protocol";"Yes[391]";"3rd party software[392]";"?";"?";"?"
+"Screencast on device";"11+[393]";"9+[394]";"No";"No";"Yes"
+"Screencast over USB";"4.4+ over USB,[120] for prior versions root required for 3rd party app[395]";"8+: on OS X[396]";"No";"?";"No"
+"Screen share";"On select devices using vendor's implementation[397][398][399]";"3rd party software[400]";"No";"No";"No"

@@ -1,0 +1,7 @@
+"Feature";"Android";"iOS";"Tizen";"Sailfish OS";"Ubuntu Touch"
+"Official app store";"Google Play";"App Store";"Tizen Store";"Jolla Store";"OpenStore"
+"Non-discriminatory stores";"No, Some apps like Ad blockers are censored on Google Play[79][80] but developers can distribute apps from their own sources";"No, Apple discriminates based on country[81] and own Apple policies[82]";"?";"Openrepos.[83] Developers can distribute apps from their own sources, supports multiple app stores";"?"
+"Common APIs for smartphones, tablets, and PCs";"Yes[84]";"Smartphone and tablet only[85]";"No";"Yes";"Yes"
+"Official SDK platform(s)";"Linux, macOS and Windows[86]";"macOS using iOS SDK";"GNU/Linux, Windows, macOS[87]";"Windows, macOS and Linux[88]";"Yes"
+"Cost to develop for the mobile OS";"Free";"No, Requires Apple hardware.[89]";"Free";"Free";"Free"
+"Cost to publish app to official store";"US$25 once to offer it on Google Play[90]";"US$99/year";"Free";"Free[91]";"Free"

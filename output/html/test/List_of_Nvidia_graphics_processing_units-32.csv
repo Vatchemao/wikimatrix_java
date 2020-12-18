@@ -1,0 +1,8 @@
+"Model";"Launch";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate";"Fillrate";"Memory";"Memory";"Memory";"Memory";"Supported API version";"Supported API version";"Supported API version";"TBP (Watts)"
+"Model";"Launch";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Pixel (GP/s)";"Texture (GT/s)";"Size (MB)";"TBP (Watts)";"Bandwidth (GB/s)";"Bus type";"Bus width (bit)";"Direct3D";"Pixel (GP/s)";"Texture (GT/s)"
+"Model";"Launch";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Hardware";"Drivers (Software)";"";"TBP (Watts)";"";"";"";"";"Pixel (GP/s)";"Texture (GT/s)"
+"GeForce FX Go 5100*";"March 2003";"NV34M";"150";"AGP 8×";"200";"400";"1:2:2:2 *:4:4:4";"0.8";"0.8";"64";"3.2";"DDR";"64";"9.0";"1.5";"2.1**";"Unknown"
+"GeForce FX Go 5500*";"March 2003";"NV34M";"150";"AGP 8×";"300";"600";"1:2:2:2 *:4:4:4";"1.2";"1.2";"600";"32 64";"DDR";"9.6";"9.0";"1.5";"2.1**";"128"
+"GeForce FX Go 5600*";"March 2003";"NV34M";"150";"AGP 8×";"NV31M";"130";"1:2:2:2 *:4:4:4";"350";"NV31M";"130";"1.4";"DDR";"1.4";"9.0";"1.5";"2.1**";"32"
+"GeForce FX Go 5650*";"March 2003";"NV34M";"150";"AGP 8×";"350";"Unknown";"1:2:2:2 *:4:4:4";"";"NV31M";"130";"";"DDR";"";"9.0";"1.5";"2.1**";""
+"GeForce FX Go 5700*";"March 2003";"NV34M";"150";"AGP 8×";"February 1, 2005";"NV36M";"1:2:2:2 *:4:4:4";"450";"NV31M";"130";"550";"DDR";"3:2:2:2 *:4:4:4";"9.0";"1.5";"2.1**";"1.8"

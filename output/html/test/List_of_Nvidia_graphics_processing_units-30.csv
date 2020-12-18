@@ -1,0 +1,4 @@
+"Model";"Launch";"Code name";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate MOperations/s";"Fillrate MPixels/s";"Fillrate MTexels/s";"Fillrate MVertices/s";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)"
+"GeForce2 Go 100";"February 6, 2001";"NV11M";"AGP 4×";"125";"332";"2:0:4:2";"250";"250";"500";"0";"8, 16";"1.328";"DDR";"32"
+"GeForce2 Go";"November 11, 2000";"NV11M";"AGP 4×";"143";"166 332";"143";"286";"286";"572";"286";"286";"572";"16, 32";"2.656"
+"GeForce2 Go 200";"February 6, 2001";"NV11M";"AGP 4×";"332";"DDR";"143";"64";"";"";"286";"286";"572";"";""

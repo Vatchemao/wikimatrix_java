@@ -1,0 +1,5 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS) Single precision";"Supported API version Direct3D";"Supported API version OpenGL";"Nvidia Optimus technology";"TBP (Watts)"
+"Quadro M520";"GM108";"28";"PCIe 3.0 ×16";"";"";"";"";"";"384:24:8 (3 SMM)";"";"";"1024";"";"";"40";"GDDR5";"64";"840"
+"Quadro M620";"GM107";"28";"PCIe 3.0 ×16";"";"";"";"512:32:16 (4 SMM)";"2048";"80";"";"";"128";"1000";"80";"30";"";"GDDR5";""
+"Quadro M1200";"GM107";"28";"PCIe 3.0 ×16";"";"";"";"640:40:16 (5 SMM)";"4096";"1400";"";"";"45";"";"4096";"";"";"GDDR5";""
+"Quadro M2200";"GM107";"28";"PCIe 3.0 ×16";"";"";"";"GM206";"1024:64:32 (8 SMM)";"88.1";"";"";"2100";"55";"4096";"";"";"GDDR5";""

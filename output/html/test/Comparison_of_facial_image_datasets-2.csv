@@ -1,0 +1,5 @@
+"Dataset Name";"Brief description";"Preprocessing";"Instances";"Format";"Default Task";"Created (updated)";"Reference";"Creator"
+"TV Human Interaction Dataset";"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.";"None.";"6,766 video clips";"video clips";"Action prediction";"2013";"[45]";"Patron-Perez, A. et al."
+"Berkeley Multimodal Human Action Database (MHAD)";"Recordings of a single person performing 12 actions";"MoCap pre-processing";"660 action samples";"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones";"Action classification";"2013";"[46]";"Ofli, F. et al."
+"THUMOS Dataset";"Large video dataset for action classification.";"Actions classified and labeled.";"45M frames of video";"Video, images, text";"Classification, action detection";"2013";"[47][48]";"Y. Jiang et al."
+"MEXAction2";"Video dataset for action localization and spotting";"Actions classified and labeled.";"1000";"Video";"Action detection";"2014";"[49]";"Stoian et al."

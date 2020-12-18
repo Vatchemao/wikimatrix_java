@@ -1,0 +1,6 @@
+"Feature";"Android";"iOS";"Tizen";"Sailfish OS";"Ubuntu Touch"
+"Custom ringtones";"Yes";"Yes[323]";"Yes";"Yes";"Yes"
+"Custom SMS/MMS tones";"Yes[324]";"5+[325]";"?";"Yes";"No"
+"Custom vibrate alert patterns";"No,[326] possible on some Samsung devices such as Galaxy S III, but limited[327]";"5+[328][329]";"?";"API available for 3rd party apps";"No"
+"Dismiss repeating alarm clock before trigger";"4.4+[330]";"No[331]";"No";"?";"Yes"
+"Tap to snooze[332]";"3rd party apps[333]";"Yes";"No";"?";"Yes"

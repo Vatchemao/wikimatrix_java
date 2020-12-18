@@ -1,0 +1,8 @@
+"GPU";"FLOPS FP16";"FLOPS FP32";"FLOPS FP64"
+"Gen4 (GMA 3, 4)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen5 (HD Graphics)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen6 (HD Graphics 2000, 3000)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen7 (HD Graphics 2500, 4000 ~ 5200)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen8 (HD Graphics 5300 ~ 6300)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen9 (HD Graphics 5xx, 6xx)";"-";"(clock speed) * (# of FP32 ALUs)";"-"
+"Gen11";"-";"(clock speed) * (# of FP32 ALUs)";"-"

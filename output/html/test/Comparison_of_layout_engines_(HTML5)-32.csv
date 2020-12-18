@@ -1,0 +1,7 @@
+"";"Trident";"edgeHTML";"Gecko";"WebKit";"Presto"
+"Ogg Vorbis";"Manual install[note 12]";"";"1.9.1[g 101]";"Depends[note 13]";"2.5"
+"WAV PCM";"Manual install[note 12]";"";"1.9.1[g 101]";"525[note 13]";"2.0"
+"MP3";"Manual install[note 12]";"5.0[t 47]";"5.0[t 47]";"";"No[g 105]"
+"AAC";"Manual install[note 12]";"";"5.0[t 47]";"No";""
+"Speex";"Manual install[note 12]";"Manual install[note 12]";"Manual install[note 12]";"";"No[g 106]"
+"Opus";"Manual install[note 12]";"No";"Manual install[note 12]";"Yes[51]";"15.0[g 107]"

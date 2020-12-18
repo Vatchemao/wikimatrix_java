@@ -1,0 +1,5 @@
+"Assembler";"Developer";"FOSS";"License";"Instruction set";"Host platform";"Development active"
+"ASM-One Macro Assembler";"Rune Gram-Madsen";"No";"Free";"Motorola 680x0";"Commodore Amiga";"No"
+"GNU Assembler";"GNU Project";"Yes";"Free";"Motorola 680x0";"various";""
+"vasm";"Volker Barthelmann, Frank Wille";"No";"Proprietary";"Motorola 680x0";"various";"Yes"
+"rmac";"James Hammons, George Nakos, Landon Dyer";"Yes";"Free";"MOS Technology 6502";"Linux, Windows, macOS";"Yes"

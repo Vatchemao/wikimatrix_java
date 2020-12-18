@@ -1,0 +1,7 @@
+"Network Compatibility";"Standard or Revision"
+"GSM (TDMA, 2G)";"GSM (1991), GPRS (2000), EDGE (2003)"
+"cdmaOne (CDMA, 2G)";"cdmaOne (1995)"
+"CDMA2000 (CDMA/TDMA, 3G)";"EV-DO (1999), Rev. A (2006), Rev. B (2006), SVDO (2011)"
+"UMTS (CDMA, 3G)";"UMTS (1999), HSDPA (2005), HSUPA (2007), HSPA+ (2009)"
+"4G";"LTE (2009), LTE Advanced (2011)"
+"5G";"NR (2018)"

@@ -1,0 +1,4 @@
+"Model";"Launch";"Code name";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate MOperations/s";"Fillrate MPixels/s";"Fillrate MTexels/s";"Fillrate MVertices/s";"Memory Size (MiB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)"
+"Radeon 9000";"2003";"RC350";"FSB";"300";"400";"4:1:2:2";"600";"600";"600";"75";"16 - 128";"3.2";"DDR";"64"
+"Radeon 9100";"2003";"RS300 (superman)";"FSB";"300";"400";"4:1:2:2";"600";"600";"600";"75";"16 - 128";"6.4";"DDR";"128"
+"Radeon 9100 Pro";"2003";"May 3, 2004";"FSB";"300";"400";"4:1:2:2";"600";"600";"600";"75";"16 - 128";"RS350";"DDR";""

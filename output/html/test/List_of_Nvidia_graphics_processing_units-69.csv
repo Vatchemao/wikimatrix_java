@@ -1,0 +1,6 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS) Single precision";"Supported API version Direct3D";"Supported API version OpenGL";"TBP (Watts)"
+"Quadro FX 380M";"GT218M";"40";"PCIe 2.0 ×16";"625";"1530";"1600";"16:8:4";"2.5";"5";"512";"12.8";"GDDR3";"64";"73.44";"10.1";"3.3";"25"
+"Quadro FX 880M";"GT216M";"40";"PCIe 2.0 ×16";"550";"1210";"1600";"48:16:8";"4.4";"8.8";"1024";"25.6";"GDDR3";"1024";"128";"10.1";"3.3";"174.24"
+"Quadro FX 1800M";"GT215M";"40";"PCIe 2.0 ×16";"450";"1080";"1600";"1600 2200";"72:24:8";"3.6";"10.8";"25.6 35.2";"GDDR3";"1024";"GDDR3 GDDR5";"10.1";"3.3";"233.28"
+"Quadro FX 2800M";"G92M";"40";"PCIe 2.0 ×16";"55";"500";"55";"1250";"2000";"96:48:16";"8";"2000";"GDDR3";"1024";"16";"10.1";"3.3";"64"
+"Quadro FX 3800M";"G92M";"40";"PCIe 2.0 ×16";"675";"1688";"55";"128:64:16";"10.8";"43.2";"648.192";"2000";"GDDR3";"1024";"100";"10.1";"3.3";""

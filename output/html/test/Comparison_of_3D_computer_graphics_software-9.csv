@@ -1,0 +1,7 @@
+"Application";"Polygon tris";"Polygon quads";"Polygon N-gon";"Polygon donut";"Curves Linear";"Curves Quadratic Bézier";"Curves Cubic Bézier";"Curves B-spline";"Curves Cardinal spline";"Curves Hermite spline";"Curves TCB spline";"Curves Smooth-step";"Curves Akima spline";"Curves NURBS";"Spline/Bézier Surface NURBS regular patch";"Spline/Bézier Surface NURBS trimmed surface";"Spline/Bézier Surface Bicubic Bézier patch";"Metaball";"Point Clouds";"Particles";"Voxel / Volume";"Bone";"Text";"Camera";"Light";"Speaker"
+"Blender";"Yes";"Yes";"Yes";"No[18]";"Bézier curve without subdivision";"No";"Yes";"No";"No";"No";"No";"No";"No";"Yes";"Yes";"No";"No";"Yes";"No";"Yes";"2.83 and later";"Yes";"Yes";"Yes";"Yes";"Yes"
+"Maya";"Yes";"Yes";"Yes";"Yes";"Yes";"?";"?";"?";"?";"?";"No";"No";"No";"Yes";"Yes";"Yes";"No";"Yes";"No";"Yes";"3D Texture";"Yes";"Yes";"Yes";"Yes";"No"
+"3ds Max";"Yes";"Yes";"Yes";"?";"Yes";"?";"Yes";"Yes";"No";"No";"No";"No";"No";"Yes";"Yes";"Yes";"Yes";"Yes";"Yes";"Yes";"No";"Yes";"Yes";"Yes";"Yes";"No"
+"Cinema 4D";"Yes";"Yes";"Yes";"?";"Yes";"No";"Yes";"Yes";"No";"?";"No";"No";"Yes";"?";"?";"?";"?";"Yes";"?";"Yes";"R20 and later";"Yes";"Yes";"Yes";"Yes";"dropped in R23[19]"
+"LightWave";"Yes";"Yes";"Yes";"Yes";"?";"?";"?";"Yes";"?";"only in Graph Editor";"only in Graph Editor";"?";"No";"?";"(LWCAD plugin)";"?";"No";"Yes";"No";"Yes";"OpenVDB primitives[20]";"Yes";"Yes";"Yes";"Yes";"?"
+"Shade 3D";"Yes";"Yes";"Yes";"?";"?";"?";"Yes";"?";"No";"No";"No";"No";"No";"Yes";"?";"?";"Yes";"Yes";"No";"Yes";"?";"Yes";"Yes";"Yes";"Yes";"Sound Object"

@@ -1,0 +1,22 @@
+"Java";"C#"
+"public int addOne(final int x) {
+    x++; // ERROR: a final variable cannot be reassigned
+    return x;
+}
+
+public List addOne(final List<Integer> list) {
+    list.add(1); // OK: it is still possible to modify a
+                 // final (reference type) variable
+    return list;
+}";"public int AddOne(in int x) 
+{
+    x++; // ERROR: a readonly parameter cannot be reassigned
+    return x;
+}
+
+public List<int> AddOne(in List<int> list) 
+{
+    list.Add(1); // OK: it is still possible to modify a
+                 // readonly (reference type) parameter
+    return list;
+}"

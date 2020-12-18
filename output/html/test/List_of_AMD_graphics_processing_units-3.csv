@@ -1,0 +1,4 @@
+"Model";"Launch";"Fab (nm)";"Bus interface";"Memory Size (KiB)";"Memory Bus type";"Memory Bus width (bit)"
+"Wonder MDA/CGA";"1986";"1000";"PC/XT";"64";"DRAM";"8"
+"Wonder EGA";"1987";"1000";"PC/XT";"256";"DRAM";"8"
+"Wonder VGA";"1987";"1000";"1000, 800";"PC/XT, ISA";"DRAM";"8"

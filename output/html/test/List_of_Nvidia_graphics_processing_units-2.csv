@@ -1,0 +1,3 @@
+"Model";"Launch";"Code name";"Fab (nm)[2]";"Bus interface";"Core clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate MOperations/s";"Fillrate MPixels/s";"Fillrate MTexels/s";"Fillrate MVertices/s";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS) Single precision"
+"GeForce 256 SDR";"October 11, 1999";"NV10";"TSMC 220 nm";"AGP 4× PCI";"120";"166";"4:4:4";"480";"480";"480";"0";"32";"2.656";"SDR";"128";"50[4]"
+"GeForce 256 DDR";"December 13, 1999";"NV10";"TSMC 220 nm";"AGP 4× PCI";"120";"150";"4:4:4";"480";"480";"480";"0";"32 64";"4.8";"DDR";"128";"50[4]"

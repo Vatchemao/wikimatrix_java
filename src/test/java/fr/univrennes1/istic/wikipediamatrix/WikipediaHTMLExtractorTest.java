@@ -21,19 +21,37 @@ import org.jsoup.nodes.Element;
 public class WikipediaHTMLExtractorTest {
 
 	private String BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/";
-	private String outputDirHtml = "output" + File.separator + "html" + File.separator;
 	private String outputDirHtmlTest = "output" + File.separator + "html" + File.separator + "test" + File.separator;
 	private String outputDirHtmlTestNombreFichiers = "output" + File.separator + "html" + File.separator + "test" + File.separator + "testNombreFichiers" + File.separator;
 	private String outputDirWikitext = "output" + File.separator + "wikitext" + File.separator;
 	private File file = new File("inputdata" + File.separator + "wikiurls.txt");
 	private String url;
-	private int nurl = 0;
+	private static int nurl = 0;
+	private static RetourExtraction retour = null;
 
 	private static final Logger logger = LogManager.getLogger(WikipediaHTMLExtractorTest.class);
 
     private WikipediaHTMLExtractor extracteur = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtmlTest, outputDirWikitext, file);
     private Statistiques statistiques = null;
 
+    @Test
+    public void testerToutesURL() throws Exception {
+		logger.debug("Début du main");
+
+		List<Element> listeTableaux = new ArrayList<Element>();
+
+		WikipediaHTMLExtractor extracteur = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtmlTest, outputDirWikitext, file);
+		BufferedReader br = new BufferedReader(new FileReader(file));
+		
+		while ((url = br.readLine()) != null) {
+	    	logger.debug("On extrait les tableaux de l'url n° " + String.valueOf(nurl));
+	    	retour = extracteur.extraire(url);
+	    	listeTableaux.addAll(retour.getListeTableaux());
+	    }
+	    br.close();
+    }
+    
+    
 	@Test
 	public void testNombreURL() throws Exception {
 		logger.debug("Début du test testNombreURL;");

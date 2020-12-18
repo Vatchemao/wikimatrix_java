@@ -1,0 +1,6 @@
+"Application";"LoD Generation";"Texture Baking";"Texture Baking";"Texture Baking";"Texture Baking"
+"Application";"Automatic";"Automatic";"Normal Map";"Ambient Occlusion (AO) Map";"Light Map";"Light Map"
+"Application";"Tangent Space Normal Map";"Automatic";"Non-directional (Traditional)";"Directional";""
+"Maya (Turtle renderer)";"""Generate LOD Meshes""";"Yes";"Yes";"Yes";"RNM (Radiosity Normal Map), and SH (Spherical harmonics) coefficients"
+"Enlighten";"No";"No";"?";"Yes";"Yes"
+"Blender";"AssetGen addon";"Yes";"Yes";"Yes";"No"

@@ -1,0 +1,6 @@
+"Model (Codename)";"Launch";"Architecture (Fab)";"Core Config[e]";"Core Clock[a] (MHz)";"Fillrate[a][b][c] Texture (GT/s)";"Fillrate[a][b][c] Pixel (GP/s)";"Processing power[a][d] (GFLOPS)";"Memory Bus type & width";"Memory Size (GiB)";"Memory Clock (MHz)";"Memory Band- width (GB/s)";"TDP"
+"Radeon 610[194] (Banks)";"13 August 2019";"GCN 1st gen (28 nm)";"320:20:8";"1030";"20.6";"8.2";"659";"GDDR5 64-bit";"2–4";"1125";"36";"<=50 W"
+"Radeon 620[195] (Polaris 24 XL)";"13 August 2019";"GCN 3rd gen (28 nm)";"384:24:8";"730 1024";"24.6";"8.2";"786";"DDR3 64-bit";"2–4";"900";"14.4";"<=50 W"
+"Radeon 625[196] (Polaris 24 XL)";"13 August 2019";"GCN 3rd gen (28 nm)";"384:24:8";"730 1024";"24.6";"8.2";"786";"GDDR5 64-bit";"2–4";"1125";"36";"<=50 W"
+"Radeon 630[197] (Polaris 23 XL)";"13 August 2019";"GCN 3rd gen (28 nm)";"384:24:8";"730 1024";"24.6";"8.2";"786";"13 August 2019";"GCN 4th gen (14 nm)";"512:32:8";"1082 1219";"<=50 W"
+"Radeon RX 640[199] (Polaris 23 XT)";"13 August 2019";"GCN 3rd gen (28 nm)";"384:24:8";"730 1024";"24.6";"8.2";"786";"13 August 2019";"640:40:16";"1100 1287";"51.5";"<=50 W"

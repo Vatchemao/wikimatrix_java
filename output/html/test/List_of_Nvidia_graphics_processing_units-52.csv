@@ -1,0 +1,6 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS)[201][202] Single precision";"Processing power (GFLOPS)[201][202] Double precision";"Supported API version Direct3D";"Supported API version OpenGL";"TBP (Watts)";"Notes"
+"Quadro FX 540";"NV43GL";"90";"PCIe ×16";"300";"300";"550";"4:8:8:8";"2.4";"2.4";"128";"8.8";"GDDR3";"128";"";"";"";"9.0c";"9.0c";"2.1"
+"Quadro FX 1400";"NV41";"130";"PCIe ×16";"350";"350";"350";"600";"350";"5:12:12:8";"128";"2.8";"4.2";"19.2";"";"";"DDR";"9.0c";"256";"75"
+"Quadro FX 3400";"NV45GL/ NV40";"130";"PCIe ×16";"900";"350";"6:16:16:16";"5.6";"350";"5.6";"128";"256";"28.8";"GDDR3";"";"";"256";"9.0c";"GDDR3";"101"
+"Quadro FX 3450";"NV41";"130";"PCIe ×16";"110";"350";"425";"425";"350";"1000";"128";"5:12:12:12";"5.1";"5.1";"";"";"256";"9.0c";"GDDR3";"32.0"
+"Quadro FX 4400";"NV45GL A3/ NV40";"130";"PCIe ×16";"130";"350";"400";"400";"350";"1050";"128";"6:16:16:16";"6.4";"6.4";"";"";"256";"9.0c";"GDDR3";"512"

@@ -1,0 +1,3 @@
+"Model";"Code name";"Fab (nm)";"Bus interface";"Core clock (MHz)";"Shader clock (MHz)";"Memory clock (MHz)";"Core config1";"Fillrate Pixel (GP/s)";"Fillrate Texture (GT/s)";"Memory Size (MB)";"Memory Bandwidth (GB/s)";"Memory Bus type";"Memory Bus width (bit)";"Processing power (GFLOPS)[201][202] Single precision";"Processing power (GFLOPS)[201][202] Double precision";"Supported API version Direct3D";"Supported API version OpenGL";"TBP (Watts)"
+"Quadro FX 330";"NV37GL";"150";"PCIe ×16";"250";"250";"400";"2:4:4:2";"1";"1";"64";"3.2";"DDR";"128";"";"";"";"9.0";"9.0"
+"Quadro FX 1300";"NV38";"130";"PCIe ×16";"350";"350";"550";"3:4:8:4";"1.4";"2.8";"128";"17.6";"DDR";"256";"";"";"2.1";"9.0";"55"

@@ -1,0 +1,6 @@
+"Application";"CPU rendering";"GPU rendering OpenCL";"GPU rendering CUDA / OptiX";"GPU rendering Metal";"GPU rendering Texture Streaming (Out-of-Core)"
+"V-Ray";"Yes";"V-Ray GPU (formerly V-Ray RT)";"V-Ray GPU (formerly V-Ray RT)";"No";"Yes[36]"
+"RenderMan";"Yes";"In development[37]";"In development[37]";"No";"No"
+"Arnold";"Yes";"No";"Yes";"No";"Yes"
+"Houdini Mantra (Path-Tracing mode)";"Yes";"No";"No";"No";"No"
+"Blender Cycles";"Yes";"Yes";"Yes";"No";"2.80 and later[38]"

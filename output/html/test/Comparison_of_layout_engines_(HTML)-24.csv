@@ -1,0 +1,8 @@
+"";"Trident";"EdgeHTML";"Gecko";"WebKit";"Presto"
+"getElementsByClassName[28]";"5.0[t 31]";"12";"1.9[g 62]";"525";"2.1"
+"registerProtocolHandler";"No";"No";"1.9[f][dead link]";"Yes[w 51]";"2.10[p 14]"
+"registerContentHandler";"No";"No";"1.8[g]";"Yes[w 51]";"2.10[p 14]"
+"Cross-document messaging";"No";"No";"4.0";"Yes[w 51]";"2.10[p 14]"
+"Drag-and-drop";"No";"No";"6.0";"Yes[w 51]";"2.10[p 14]"
+"pushState() and replaceState()";"No";"No";"6.0[t 32]";"Yes[w 51]";"2.10[p 14]"
+"";"No";"No";"Trident";"Yes[w 51]";"2.10[p 14]"

@@ -1,0 +1,6 @@
+"Can:";"NAT[a]";"NAT64, NPTv6";"Intrusion Detection System (IDS)[b]";"Virtual Private Network (VPN)[c]";"Antivirus (AV)";"Packet capture";"Profile selection[d]"
+"Vyatta";"Yes (three NAT types)";"?";"Yes (integrated Snort)";"Yes (IPsec and OpenVPN)";"Yes (with clamav, Sophos Antivirus (optional))";"Yes (with wireshark or tcpdump)";"?"
+"WinGate";"Yes";"?";"Yes (with NetPatrol)";"Yes (proprietary)";"Yes (Kaspersky Labs)";"Yes (filtered capturing to pcap format)";"No"
+"OPNsense";"Yes";"Yes (NPt)";"Yes (with Snort)";"Yes (OpenVPN, IPsec, L2TP, IKEv2, Tinc, PPTP)";"Yes (with squid and clamav)";"Yes (tcpdump)";"No"
+"pfSense";"Yes";"Yes (NPt)";"Yes (with Snort)";"Yes (OpenVPN, IPsec, L2TP, IKEv2, Tinc, PPTP)";"Yes (with squid and clamav)";"Yes (tcpdump)";"No"
+"IPFire";"Yes";"?";"Yes (with Snort)";"Yes (OpenVPN, IPsec, IKEv2)";"Yes (with squid and clamav)";"Yes (tcpdump)";"No"

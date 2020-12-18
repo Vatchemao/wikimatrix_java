@@ -1,0 +1,7 @@
+"Model";"Launch";"Codename";"Architecture";"Fab (nm)";"Core Clock (MHz) Base";"Core Clock (MHz) Turbo";"Config core[a]";"Fillrate Texture (GT/s)";"Fillrate Pixel (GP/s)";"Shared Memory Bus width (bit)";"Shared Memory Bus type";"Shared Memory Bandwidth (GB/s)";"Processing power (GFLOPS)";"API compliance (version) Direct3D";"API compliance (version) OpenGL[c]";"API compliance (version) OpenCL";"TDP (W)[b]";"APU"
+"Radeon HD 7310[28]";"June 6, 2012";"Ontario";"TeraScale 2";"40";"500";"N/A";"80:8:4";"4.00";"2.00";"64";"DDR3-1066";"8.53";"80";"11.3 (11_0)";"4.5";"1.2";"18";"E2-1200"
+"Radeon HD 7340[28]";"June 6, 2012";"Ontario";"TeraScale 2";"40";"523";"680";"80:8:4";"5.44";"2.72";"64";"DDR3-1333";"10.66";"83.6–108.8";"11.3 (11_0)";"4.5";"1.2";"18";"E2-1800"
+"Radeon HD 7480D";"June 6, 2012";"Ontario";"TeraScale 2";"40";"June 1, 2012";"Scrapper";"80:8:4";"TeraScale 3";"June 1, 2012";"Scrapper";"32";"723";"TeraScale 3";"11.3 (11_0)";"4.5";"1.2";"18";"32"
+"Radeon HD 7540D";"June 6, 2012";"Ontario";"TeraScale 2";"40";"760";"192:12:4";"80:8:4";"Unknown";"Unknown";"Unknown";"Scrapper";"DDR3-1866";"29.9";"TeraScale 3";"11.3 (11_0)";"4.5";"1.2";"18"
+"Radeon HD 7560D";"June 6, 2012";"Ontario";"TeraScale 2";"40";"Devastator";"256:16:4";"80:8:4";"Unknown";"Devastator";"Scrapper";"389";"65–100";"TeraScale 3";"11.3 (11_0)";"4.5";"1.2";"18";"DDR3-1866"
+"Radeon HD 7660D";"June 6, 2012";"Ontario";"TeraScale 2";"40";"760";"800";"80:8:4";"Unknown";"Devastator";"Scrapper";"384:24:8";"16.2";"TeraScale 3";"11.3 (11_0)";"4.5";"1.2";"18";"DDR3-1866"
