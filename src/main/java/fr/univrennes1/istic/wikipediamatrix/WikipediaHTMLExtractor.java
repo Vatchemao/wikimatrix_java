@@ -9,6 +9,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -26,7 +29,6 @@ public class WikipediaHTMLExtractor {
 	private String outputDirHtml;
 	private String outputDirWikitext;
 	private File file;
-	private Statistiques statistiques = new Statistiques(null);
 	
 	private CSVWriter csvWriter;
 
@@ -46,7 +48,7 @@ public class WikipediaHTMLExtractor {
 	   List<Element> listeRetour = new ArrayList<Element>();
 	   boolean enEchec = false;
 	   logger.debug("Début de l'extraction");
-//	   try {
+	   try {
 		   String wurl = BASE_WIKIPEDIA_URL + url;
 		   logger.debug("On extrait à présent cette page : " + wurl);
 		   Document doc = Jsoup.connect(wurl).get();
@@ -59,10 +61,10 @@ public class WikipediaHTMLExtractor {
 	    	   traiterTableau(table, url, i);
 	    	   listeRetour.add(table);
 	       }
-//	   } catch(Exception e) {
-//		   logger.warn("Cette url n'est pas accessible. Le traitement va l'ignorer et se poursuivre.");
-//		   enEchec = true;
-//	   }
+	   } catch(Exception e) {
+		   logger.warn("Cette url n'est pas accessible. Le traitement va l'ignorer et se poursuivre.");
+		   enEchec = true;
+	   }
 	   logger.debug("Fin de l'extraction");
        return new RetourExtraction(listeRetour, enEchec);
 	}
@@ -71,11 +73,11 @@ public class WikipediaHTMLExtractor {
 	 * csv, ensuite écrivant les headers, et enfin en écrivant les lignes. **/
 	public void traiterTableau(Element table, String url, int i) throws IOException {
 		logger.debug("Début du traitement du tableau n° " + String.valueOf(i + 1));
-//		try {
+		try {
 			// On initialise le fichier csv.
 			String csvFileName = mkCSVFileName(url, i + 1);
-			File csvFile = new File(outputDirWikitext + csvFileName);
-			logger.debug("Le fichier est créé ici : " + outputDirWikitext + csvFileName);
+			File csvFile = new File(outputDirHtml + csvFileName);
+			logger.debug("Le fichier est créé ici : " + outputDirHtml + csvFileName);
 			FileWriter fileWriter = new FileWriter(csvFile, StandardCharsets.UTF_8);
 			csvWriter = new CSVWriter(fileWriter, ';');
 
@@ -95,9 +97,9 @@ public class WikipediaHTMLExtractor {
 				rowspans = traiterLigne(rowspans, ligne, largeurTableau);
 			}
 	        csvWriter.close();
-//		} catch(Exception e) {
-//			logger.warn("Une erreur est survenue durant le traitement de ce tableau.");
-//		}
+		} catch(Exception e) {
+			logger.warn("Une erreur est survenue durant le traitement de ce tableau.");
+		}
 		logger.debug("Fin du traitement du tableau n° " + String.valueOf(i + 1) + ".");
 	}
 

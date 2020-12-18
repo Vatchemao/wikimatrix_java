@@ -4,9 +4,14 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Element;
@@ -34,21 +39,22 @@ public class App {
 		WikipediaHTMLExtractor extracteur = new WikipediaHTMLExtractor(BASE_WIKIPEDIA_URL, outputDirHtml, outputDirWikitext, file);
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		
-//		while ((url = br.readLine()) != null) {
-//	    	logger.debug("On extrait les tableaux de l'url n° " + String.valueOf(nurl));
-//	    	retour = extracteur.extraire(url);
-//	    	if (retour.isEnEchec()) {
-//	    		nbEchecs += 1;
-//	    		listeEchecs.add(url);
-//	    	}
-//	    	nurl ++;
-//	    	listeTableaux.addAll(retour.getListeTableaux());
-//	    }
+		while ((url = br.readLine()) != null) {
+	    	logger.debug("On extrait les tableaux de l'url n° " + String.valueOf(nurl));
+	    	retour = extracteur.extraire(url);
+	    	if (retour.isEnEchec()) {
+	    		nbEchecs += 1;
+	    		listeEchecs.add(url);
+	    	}
+	    	nurl ++;
+	    	listeTableaux.addAll(retour.getListeTableaux());
+	    }
+			
+//		url = "Comparison_between_Esperanto_and_Ido";
+//		retour = extracteur.extraire(url);
+//		listeTableaux.addAll(retour.getListeTableaux());
 
-		url = "Comparison_between_Esperanto_and_Ido";
-		retour = extracteur.extraire(url);
-		listeTableaux.addAll(retour.getListeTableaux());
-
+	    br.close();
         Statistiques statistiques = new Statistiques(listeTableaux);
 
         logger.info("");
@@ -76,9 +82,5 @@ public class App {
 
         logger.info("");
 	    logger.debug("FIN DU TRAITEMENT");
-	    br.close();
     }
-    
-    
-
 }
